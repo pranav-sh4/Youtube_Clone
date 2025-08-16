@@ -96,17 +96,11 @@ This application allows users to:
 
 ---
 
-## 📸 Screenshots (Optional)
-
-*(Add images of your homepage, video details, dark mode, etc.)*
-
----
-
 ## 🛠️ Setup & Installation
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/video-streaming-app.git
+git clone https://github.com/pranav-sh4/youtube-clone.git
 
 # Navigate to project
 cd youtube-clone
