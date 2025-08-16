@@ -1,0 +1,124 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+
+  --bg: #ffffff;
+  --text: #111827;
+  --muted: #6b7280;
+  --card: #f8fafc;
+  --accent: #ff0000;
+}
+
+a {
+  font-weight: 500;
+  color: gray;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.nav-link{
+  color: gray;
+}
+[data-theme="dark"] {
+  --bg: #0b1220;
+  --text: #e6eef8;
+  --muted: #9aa7b4;
+  --card: #072029;
+  --accent: #ff3333;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; margin: 0; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  -webkit-font-smoothing: antialiased;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  gap: 1rem;
+}
+
+.sidebar {
+  width: 220px;
+  padding: 1rem;
+  background: transparent;
+}
+
+.content {
+  flex: 1;
+  padding: 1rem;
+}
+
+.video-card {
+  background: var(--card);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.video-card:hover { transform: translateY(-6px); box-shadow: 0 8px 24px rgba(0,0,0,0.12); }
+.video-thumb { width: 100%; height: 100%; object-fit: cover; display: flexbox ; }
+
+.muted { color: var(--muted); font-size: 0.9rem; }
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  background: transparent;
+}
+
+@media (max-width: 768px) {
+  .sidebar { display: contents; }
+  .video-thumb { height: auto; }
+  .header { padding: 0.5rem; }
+}
+
