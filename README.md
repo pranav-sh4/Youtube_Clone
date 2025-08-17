@@ -29,15 +29,6 @@ This application allows users to:
 
 ---
 
-##  Features
-=======
-* Add **animations, hover effects, and skeleton loaders** for better UX.
-* Deploy the app on **Netlify/Vercel** with GitHub repository.
-
----
-
-## ✨ Features
-
 ### 📌 Homepage (Video Feed)
 
 * Displays trending videos with:
@@ -124,7 +115,7 @@ npm run dev
 ## 🌐 Deployment
 
 * Hosted on **Vercel**
-  👉 [Live Demo Link]()
+  👉 [Live Demo Link](https://youtube-clone-one-indol.vercel.app/)
 
 ---
 
