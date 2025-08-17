@@ -18,7 +18,7 @@ function Header() {
     <header className="header border-bottom d-flex align-items-center justify-content-between px-3">
       <button className="btn d-flex align-items-center"
         onClick={() => navigate("/")}>
-        <img src="/src/assets/images/youtube-color-svgrepo-com.svg" alt="YouTube logo"
+        <img src="/images/youtube-color-svgrepo-com.svg" alt="YouTube logo"
           width="30" height="30"
           className="me-1"
           style={{ objectFit: "contain" }}
@@ -41,7 +41,7 @@ function Header() {
 
       <div className="d-flex align-items-center" style={{ gap: 12 }}>
         <ThemeToggle />
-        <img src="/src/assets/images/user-profile-svgrepo-com.svg" alt="user"
+        <img src="/images/user-profile-svgrepo-com.svg" alt="user"
           style={{ width: 36, height: 36, borderRadius: 999 }}
         />
       </div>
