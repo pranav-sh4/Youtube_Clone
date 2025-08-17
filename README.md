@@ -12,11 +12,7 @@ This application allows users to:
 * Browse trending and categorized videos.
 * Search for videos by keywords.
 * View video details, related videos, and comments.
-<<<<<<< HEAD
-* Like/Dislike videos.
-=======
-* Like/Dislike videos (persisted with `localStorage`).
->>>>>>> e5bc0aceea15aa24ff7b8bc45dabc4797115736d
+* Like/Dislike videos
 * Switch between **light** and **dark** themes.
 * Navigate seamlessly using **React Router**.
 
@@ -28,7 +24,6 @@ This application allows users to:
 * Build a **responsive layout** for mobile, tablet, and desktop.
 * Use **React state management** for likes, dislikes, and views.
 * Implement **dark/light mode** toggle with persistence.
-<<<<<<< HEAD
 * Add **animations, hover effects, and loaders** for better UX.
 * Deploy the app on **Vercel** with GitHub repository.
 
@@ -42,7 +37,6 @@ This application allows users to:
 ---
 
 ## ✨ Features
->>>>>>> e5bc0aceea15aa24ff7b8bc45dabc4797115736d
 
 ### 📌 Homepage (Video Feed)
 
@@ -69,7 +63,7 @@ This application allows users to:
 
 * Full video player UI.
 * Video title, description, channel info.
-* Like 👍 / Dislike 👎 buttons (dynamic, `localStorage` persisted).
+* Like 👍 / Dislike 👎 buttons (dynamic).
 * Subscribe button (UI only).
 * Comment section with mock comments.
 
