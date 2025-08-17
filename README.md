@@ -28,7 +28,6 @@ This application allows users to:
 * Build a **responsive layout** for mobile, tablet, and desktop.
 * Use **React state management** for likes, dislikes, and views.
 * Implement **dark/light mode** toggle with persistence.
-<<<<<<< HEAD
 * Add **animations, hover effects, and loaders** for better UX.
 * Deploy the app on **Vercel** with GitHub repository.
 
@@ -36,13 +35,7 @@ This application allows users to:
 
 ##  Features
 =======
-* Add **animations, hover effects, and skeleton loaders** for better UX.
-* Deploy the app on **Netlify/Vercel** with GitHub repository.
 
----
-
-## ✨ Features
->>>>>>> e5bc0aceea15aa24ff7b8bc45dabc4797115736d
 
 ### 📌 Homepage (Video Feed)
 
