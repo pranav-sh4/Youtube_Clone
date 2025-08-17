@@ -4,9 +4,9 @@ export const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState(() => {
-    try {
+    try{
       return localStorage.getItem("yt-theme") || "light";
-    } catch {
+    }catch{
       return "light";
     }
   });
@@ -18,5 +18,8 @@ export const ThemeProvider = ({ children }) => {
 
   const toggle = () => setTheme((t) => (t === "light" ? "dark" : "light"));
 
-  return <ThemeContext.Provider value={{ theme, toggle }}>{children}</ThemeContext.Provider>;
+  return (
+  <ThemeContext.Provider value={{ theme, toggle }}>
+    {children}
+  </ThemeContext.Provider>)
 };

@@ -7,7 +7,7 @@ function formatViews(n) {
   return n + " views";
 }
 
-export default function VideoCard({ video }) {
+function VideoCard({ video }) {
   const navigate = useNavigate();
 
   const open = () => navigate(`/watch/${video.id}`);
@@ -23,10 +23,11 @@ export default function VideoCard({ video }) {
           <h6 style={{ margin: 0, fontSize: "0.95rem" }}>{video.title}</h6>
           <div className="muted" style={{ fontSize: ".85rem" }}>
             <div>{video.channel}</div>
-            <div>{formatViews(video.views)} • {video.posted}</div>
+            <div>{formatViews(video.views)} | {video.posted}</div>
           </div>
         </div>
       </div>
     </div>
   );
 }
+export default VideoCard;

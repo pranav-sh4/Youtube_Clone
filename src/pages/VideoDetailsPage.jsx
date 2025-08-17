@@ -75,9 +75,7 @@ export default function VideoDetailsPage() {
     <div className="row">
       <div className="col-12 col-lg-8">
         <div style={{background: "black", borderRadius: 8, minHeight: 360, maxHeight: 400, overflow: "hidden"}}>
-          <img
-            src={video.thumbnail}
-            alt={video.title}
+          <img src={video.thumbnail}  alt={video.title}
             style={{ width: "100%", height: 360, objectFit: "cover" }}
           />
         </div>
@@ -97,10 +95,10 @@ export default function VideoDetailsPage() {
             <div>
               <div className="mt-2 d-flex gap-3 align-items-center">
                 <button className={`btn ${liked ? "btn-success" : "btn-outline-secondary"}`}
-                  onClick={handleLike}> <FaThumbsUp /> {likes}
+                  onClick={handleLike}> <FaThumbsUp/> {likes}
                 </button>
                 <button className={`btn ${disliked ? "btn-danger" : "btn-outline-secondary"}`}
-                  onClick={handleDislike}> <FaThumbsDown /> 
+                  onClick={handleDislike}> <FaThumbsDown/> {}
                 </button>
                 <button className="btn btn-outline-danger">Subscribe</button>
               </div>

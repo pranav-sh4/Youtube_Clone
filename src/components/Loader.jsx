@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Loader({ count = 6 }) {
+function Loader({ count = 6 }) {
   const boxes = Array.from({ length: count });
   return (
     <div className="row g-3">
@@ -16,3 +16,4 @@ export default function Loader({ count = 6 }) {
     </div>
   );
 }
+export default Loader;

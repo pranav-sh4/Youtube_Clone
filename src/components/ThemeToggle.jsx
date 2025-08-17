@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
-import { BsSearch, BsSun, BsMoon } from 'react-icons/bs';
+import { BsSun, BsMoon } from 'react-icons/bs';
 
-export default function ThemeToggle() {
+function ThemeToggle() {
   const { theme, toggle } = useContext(ThemeContext);
   return (
     <button className="btn btn-outline-secondary" onClick={toggle} >
@@ -10,3 +10,4 @@ export default function ThemeToggle() {
     </button>
   );
 }
+export default ThemeToggle;

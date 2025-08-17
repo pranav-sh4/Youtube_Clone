@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function NotFound() {
+function NotFound() {
   return (
     <div className="text-center">
       <h3>404 — Not Found</h3>
@@ -10,3 +10,4 @@ export default function NotFound() {
     </div>
   );
 }
+export default NotFound;

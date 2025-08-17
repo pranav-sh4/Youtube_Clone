@@ -3,7 +3,7 @@ import VideoCard from "../components/VideoCard";
 import Loader from "../components/Loader";
 import { videos as mockVideos } from "../assets/videos";
 
-export default function HomePage() {
+function HomePage() {
   const [videos, setVideos] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -32,3 +32,4 @@ export default function HomePage() {
     </div>
   );
 }
+export default HomePage;

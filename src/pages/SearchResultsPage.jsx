@@ -7,7 +7,7 @@ function useQuery() {
   return new URLSearchParams(useLocation().search);
 }
 
-export default function SearchResultsPage() {
+function SearchResultsPage() {
   const q = useQuery().get("q") || "";
   const query = q.trim().toLowerCase();
 
@@ -32,3 +32,4 @@ export default function SearchResultsPage() {
     </div>
   );
 }
+export default SearchResultsPage;
