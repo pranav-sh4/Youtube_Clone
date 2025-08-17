@@ -107,7 +107,7 @@ This application allows users to:
 
 ```bash
 # Clone the repo
-git clone https://github.com/pranav-sh4/youtube-clone.git
+git clone https://github.com/pranav-sh4/Youtube_Clone.git
 
 # Navigate to project
 cd youtube-clone
