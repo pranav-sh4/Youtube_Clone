@@ -12,11 +12,7 @@ This application allows users to:
 * Browse trending and categorized videos.
 * Search for videos by keywords.
 * View video details, related videos, and comments.
-<<<<<<< HEAD
-* Like/Dislike videos.
-=======
-* Like/Dislike videos (persisted with `localStorage`).
->>>>>>> e5bc0aceea15aa24ff7b8bc45dabc4797115736d
+* Like/Dislike videos
 * Switch between **light** and **dark** themes.
 * Navigate seamlessly using **React Router**.
 
@@ -35,7 +31,12 @@ This application allows users to:
 
 ##  Features
 =======
+* Add **animations, hover effects, and skeleton loaders** for better UX.
+* Deploy the app on **Netlify/Vercel** with GitHub repository.
 
+---
+
+## ✨ Features
 
 ### 📌 Homepage (Video Feed)
 
@@ -62,7 +63,7 @@ This application allows users to:
 
 * Full video player UI.
 * Video title, description, channel info.
-* Like 👍 / Dislike 👎 buttons (dynamic, `localStorage` persisted).
+* Like 👍 / Dislike 👎 buttons (dynamic).
 * Subscribe button (UI only).
 * Comment section with mock comments.
 
