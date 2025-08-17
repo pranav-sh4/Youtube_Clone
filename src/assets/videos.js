@@ -121,7 +121,7 @@ export const videos = [
     id: "9",
     title: "How to Start a Small Garden at Home",
     channel: "Green Living",
-    channelAvatar: "https://i.pravatar.cc/150?img=9",
+    channelAvatar: "/src/assets/images/avatar-dead-monster-svgrepo-com.svg",
     thumbnail: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=225&fit=crop",
     views: 28950,
     likes: 1764,

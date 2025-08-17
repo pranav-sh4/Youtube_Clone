@@ -21,6 +21,7 @@ function Header() {
         <img src="/src/assets/images/youtube-color-svgrepo-com.svg" alt="YouTube logo"
           width="30" height="30"
           className="me-1"
+          style={{ objectFit: "contain" }}
         />
         <strong style={{ fontSize: 20, color: "red" }}>YouTube</strong>
       </button>

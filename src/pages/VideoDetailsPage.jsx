@@ -74,10 +74,8 @@ export default function VideoDetailsPage() {
   return (
     <div className="row">
       <div className="col-12 col-lg-8">
-        <div style={{background: "black", borderRadius: 8, minHeight: 360, maxHeight: 400, overflow: "hidden"}}>
-          <img src={video.thumbnail}  alt={video.title}
-            style={{ width: "100%", height: 360, objectFit: "cover" }}
-          />
+        <div className="video-container" >
+          <img src={video.thumbnail} alt={video.title} style={{ width: "100%", height: 360, objectFit: "cover" }}/>
         </div>
 
         <div className="mt-3">
